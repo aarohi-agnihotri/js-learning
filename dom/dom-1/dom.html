@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .hidden{
+            visibility: hidden;
+        }
+        .button{
+            border: 4px solid deeppink;
+            font-family: 'Times New Roman', Times, serif;
+            font-style:italic;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+        ul{
+            display: inline-block;
+            color: black;
+            background-color: pink;
+            margin: 10px;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .para{
+            display: inline-block;
+            font-family: 'Lucida Sans';
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: blueviolet;
+            padding: 5px;
+            border: 4px solid yellow;
+        }
+        .newPara{
+            display: inline-block;
+            font-family: 'Lucida Sans';
+            font-size: 2em;
+            font-weight: bold;
+            background-color: blue;
+            padding: 10px;
+            border: 4px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="firstHeading">Hello!</h1>
+    <h2>Element to be deleted</h2>
+    <div class="text">I am currently learning JAVA SCRIPT</div>
+    <div class="text">I am currently learning Web development</div>
+    <button type="button" class="button">Click me</button>
+
+    <h3>Navigation</h3>
+    <ul>
+        <li class="navOption" id="navId">Home</li>
+        <li class="navOption">About</li>
+        <li class="navOption">Contact</li>
+        <li class="navOption">More</li>
+    </ul>
+
+    <h2 class="demo">Text</h2>
+    <p class="hidden">Hidden Text</p>
+    
+    <h2 class="secondH2">Hello JavaScript</h2>
+
+    <div class="box">first box</div>
+    <div class="box">second box</div>
+    <div class="box">third box</div>
+
+    <h4 id="ABC"></h4>
+
+    <p class ="para">I am a paragraph </p>
+
+    <h1 id="title" class="heading">DOM learning Chai aur code <span style="display: none;">test code</span></h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <form action="abc.php">
+        <input type="password" placeholder="Enter ur password">
+    </form>
+
+    <div class="unique">Lorem, ipsum dolor.</div>
+    <div class="unique">Lorem ipsum dolor sit.
+    </div>
+    <div class="unique">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+
+    <script src="dom.js"></script> 
+</body>
+</html>

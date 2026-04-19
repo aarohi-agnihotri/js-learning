@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events in java Script</title>
+  </head>
+  <style>
+    div {
+      height: 150px;
+      width: 150px;
+      font-size: 25px;
+      color: white;
+      background-color: blue;
+    }
+    .box2 {
+      height: 150px;
+      width: 150px;
+      font-size: 25px;
+      color: white;
+      background-color: brown;
+    }
+  </style>
+  <body>
+    <!-- onclick is an event, used as attribute -->
+    <button onclick="console.log('Button was clicked');">Click me!</button>
+    <button onclick="console.log('Button was clicked'); alert('hello!')">
+      Click me! with alert
+    </button>
+
+    <button ondblclick="console.log('Button was clicked 2x')">
+      Click me 2 times!
+    </button>
+
+    <!-- <div onmouseover="console.log('u are inside box')">this is a box</div> -->
+    <div>this is a box</div>
+    <button id="btn">Button</button>
+
+    <button id="btn-2">Button-2</button>
+    <div class="box2">this is a box-2</div>
+
+    <button id="btn-3">Button-3</button>
+
+    <button id="btn4">clickkkkkkk me</button>
+
+    <button id="mode">light-mode</button>
+    <script src="events.js"></script>
+  </body>
+</html>
