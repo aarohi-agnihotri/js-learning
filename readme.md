@@ -24,4 +24,4 @@
 
 > 📚 Learned JavaScript from [Chai aur Code](https://www.youtube.com/@chaiaurcode) and [Apna College](https://www.youtube.com/@ApnaCollegeOfficial), with some references from [W3Schools](https://www.w3schools.com/).
 
-[//]: # (| **How does JS execute code + Call Stack** | [exceldraw file]() |)
+<!-- | **How does JS execute code + Call Stack** | [exceldraw file]() | -->
